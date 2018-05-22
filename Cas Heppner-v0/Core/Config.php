@@ -6,8 +6,8 @@ class Config{
     // For database settings
     const BDD_HOST      = 'localhost';
     const BDD_NAME      = 'pro_heppner';
-    const BDD_USER      = 'pro_heppner';
-    const BDD_PASSWORD  = 'gFStNxCHAPMqeD6b';
+    const BDD_USER      = 'userweb';
+    const BDD_PASSWORD  = 'pwweb';
 
     // For Application settings
     const APPLI_NAME    = 'Heppner';
