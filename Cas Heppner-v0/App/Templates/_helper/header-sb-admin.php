@@ -28,7 +28,6 @@
       <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
           <a class="nav-link" href="../www">
-            <i class="fa fa-fw fa-dashboard"></i>
             <span class="nav-link-text">Tableau de bord</span>
           </a>
         </li>
@@ -41,6 +40,7 @@
         </li>
       </ul>
     </div>
+
   </nav>
   <div class="content-wrapper">
     <div class="container-fluid">
