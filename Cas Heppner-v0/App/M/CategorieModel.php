@@ -27,4 +27,5 @@ class CategorieModel extends Object
         }
         return $nb;
     }
+
 }

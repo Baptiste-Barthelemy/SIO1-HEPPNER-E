@@ -28,4 +28,5 @@ class ModeleModel extends Object
         //select count(*) from vehicule where modele_id=?
         return VehiculeModel::count(['modele_id'=>$this->id]);
     }
+
 }
