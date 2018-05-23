@@ -22,6 +22,7 @@ class  ListeView extends \Core\View {
     public function getTitle()
     {
         return 'Tableau de bord';
+        return 'Paramètre';
     }
     /**
      * @return mixed
