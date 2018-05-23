@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: usersio
  * Date: 23/05/18
- * Time: 10:26
+ * Time: 13:43
  */
 
 namespace App\V\Parametre;
@@ -13,7 +13,7 @@ class ParametreView extends \core\view {
 
     public function __construct()
     {
-        $this->setFile('DashBoard/listeTemplate.php');
+        $this->setFile('Parametre/listeTemplate.php');
 
     }
 
@@ -22,10 +22,10 @@ class ParametreView extends \core\view {
      */
     public function getTitle()
     {
-        return 'Paramètre';
+        return 'Parametre';
     }
     /**
      * @return mixed
      */
-    
+
 }
