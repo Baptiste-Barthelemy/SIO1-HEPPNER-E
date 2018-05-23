@@ -233,6 +233,26 @@ class Object {
         return $result[0];
     }
 
+
+    public static function max($params) {
+        $query = 'select max('.$params.') from ' . self::_getTable() . ' ';
+
+        $statement = self::getConnection()->prepare($query);
+        $statement->execute();
+        $result = $statement->fetchAll(\PDO::FETCH_COLUMN);
+        return $result[0];
+    }
+
+    public static function min($params) {
+        $query = 'select MIN('.$params.') from ' . self::_getTable() . ' ';
+
+        $statement = self::getConnection()->prepare($query);
+        $statement->execute();
+        $result = $statement->fetchAll(\PDO::FETCH_COLUMN);
+        return $result[0];
+    }
+
+
     /**
      * get objects from a query
      * @param string $query

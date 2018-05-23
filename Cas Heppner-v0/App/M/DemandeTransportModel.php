@@ -33,10 +33,15 @@ class DemandeTransportModel extends Object
         return $this->distance;
     }
 
-    
-    public static function getTotalDistance()
+
+    public static function getTotalDistanceJour()
     {
         //$liste=DemandeTransportModel::getAll();
+        //$date=getdate();
+        //$day=$date['mday'];
+        //$month=$date['mon'];
+        //$year=$date['year'];
+        //$aujourdhui=$year+'-'+$month+'-'+$day;
         $liste=DemandeTransportModel::find(['dateDemande'=>'2018-05-23'], null, '0,100');
         $somme=0;
         foreach ($liste as $ligne)
@@ -44,6 +49,26 @@ class DemandeTransportModel extends Object
             $somme+=$ligne->getDistance();
         }
         return $somme;
+    }
+
+    //public static function getTotalDistanceMois($mois)
+    public static function getTotalDistanceMois()
+    {
+
+        //$liste=DemandeTransportModel::find(['dateDemande'=>'2018-'.$mois.'-%%'], null, '0,100');
+        $liste=DemandeTransportModel::find(['dateDemande'=>'2018-05-%%'], null, '0,100');
+        $somme=0;
+        foreach ($liste as $ligne)
+        {
+            $somme+=$ligne->getDistance();
+        }
+        return $somme;
+    }
+
+    public static function getDistanceMax()
+    {
+        $distanceMax=DemandeTransportModel::max('distance');
+        return $distanceMax;
     }
 
 
