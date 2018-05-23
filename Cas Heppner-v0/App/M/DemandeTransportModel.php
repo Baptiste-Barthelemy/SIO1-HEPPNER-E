@@ -25,5 +25,15 @@ class DemandeTransportModel extends Object
     public $dateDemande;
     public $dateLimite;
 
+    /**
+     * @return mixed
+     */
+    public function getDistance()
+    {
+        return $this->distance;
+    }
+
+
+
 
 }

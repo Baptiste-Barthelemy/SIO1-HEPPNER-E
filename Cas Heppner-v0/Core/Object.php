@@ -196,7 +196,7 @@ class Object {
         return self::query($query, []);
     }
 
-    private static function order($order = null) {
+    public static function order($order = null) {
         if(null!==$order && implode('`,`',$order)=='rand()'){
             $query = ' order by rand()';
         }elseif (null != $order or count($order) > 0) {
