@@ -9,6 +9,7 @@
 namespace App\C;
 
 use App\V\DashBoard\ListeView;
+use App\V\DashBoard\ParamsView;
 
 
 /**
@@ -23,4 +24,12 @@ class DashBoardController extends \Core\Controller {
         $view = new ListeView();
         return $view;
     }
+
+    public function parametresAction() {
+
+        $viewParams = new ParamsView();
+        return $viewParams;
+    }
 }
+
+

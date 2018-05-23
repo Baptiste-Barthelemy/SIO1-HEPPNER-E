@@ -1,5 +1,5 @@
 <ol class="breadcrumb">
     <li class="breadcrumb-item">
-        <a href="#">Paramètres</a>
+        <a href="#">Tableau de bord</a>
     </li>
 </ol>
