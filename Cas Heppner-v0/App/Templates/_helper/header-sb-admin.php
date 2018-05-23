@@ -36,7 +36,7 @@
                 </a>
             </li>
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
-                <a class="nav-link" href="?c=Parametre&a=liste">
+                <a class="nav-link" href="?c=DashBoard&a=parametres">
                     <span class="nav-link-text">Paramètre</span>
                 </a>
             </li>
