@@ -49,7 +49,7 @@
                 <div class="card-body-icon">
                     <i class="fa fa-fw fa-globe"></i>
                 </div>
-                <div class="mr-5"><?php echo \App\M\ClientModel::count(); ?> Chiffre d'affaire :
+                <div class="mr-5"><?php echo \App\M\ClientModel::count(); ?>€ de chiffre d'affaire
                 </div>
             </div>
         </div>
@@ -85,7 +85,7 @@
                 <div class="card-body-icon">
                     <i class="fa fa-fw fa-globe"></i>
                 </div>
-                <div class="mr-5"><?php echo \App\M\ClientModel::count(); ?> Le plus long trajet :
+                <div class="mr-5"><?php echo \App\M\ClientModel::count(); ?> Le plus long trajet
                 </div>
             </div>
         </div>
@@ -97,7 +97,7 @@
                 <div class="card-body-icon">
                     <i class="fa fa-fw fa-globe"></i>
                 </div>
-                <div class="mr-5"><?php echo \App\M\DemandeTransportModel::count(); ?> KMs parcourus
+                <div class="mr-5"><?php echo \App\M\DemandeTransportModel::count(); ?> Demandes de transport
                 </div>
             </div>
         </div>
