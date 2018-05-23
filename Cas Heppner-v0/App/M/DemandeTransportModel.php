@@ -32,6 +32,8 @@ class DemandeTransportModel extends Object
     {
         return $this->distance;
     }
+
+    
     public static function getTotalDistance()
     {
         //$liste=DemandeTransportModel::getAll();
