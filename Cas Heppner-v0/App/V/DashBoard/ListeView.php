@@ -2,6 +2,7 @@
 
 namespace App\V\DashBoard;
 
+use App\M\DemandeTransportModel;
 use App\M\DepartementModel;
 use App\M\RegionModel;
 
@@ -39,6 +40,11 @@ class  ListeView extends \Core\View {
     public function getNbAll($annee)
     {
         return 0;
+    }
+
+    public function getTotalDistance()
+    {
+        return DemandeTransportModel::getTotalDistance();
     }
 
 }

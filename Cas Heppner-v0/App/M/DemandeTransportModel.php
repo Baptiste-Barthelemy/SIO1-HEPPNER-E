@@ -33,6 +33,19 @@ class DemandeTransportModel extends Object
         return $this->distance;
     }
 
+    
+    public static function getTotalDistance()
+    {
+        //$liste=DemandeTransportModel::getAll();
+        $liste=DemandeTransportModel::find(['dateDemande'=>'2018-05-23'], null, '0,100');
+        $somme=0;
+        foreach ($liste as $ligne)
+        {
+            $somme+=$ligne->getDistance();
+        }
+        return $somme;
+    }
+
 
 
 

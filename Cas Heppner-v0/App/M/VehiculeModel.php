@@ -28,4 +28,26 @@ class VehiculeModel extends Object
     }
 
 
+    public static function getNbVehiculesParCategorie()
+    {
+        $return = [];
+        $categories = CategorieModel::getAll();
+        foreach ($categories as $categorie) {
+            $valeur = [];
+            $valeur['categorie']=$categorie;
+            $valeur['nbVehicules'] = $categorie->nbVehicules();
+            $return[]=$valeur;
+        }
+        return $return;
+    }
+
+
+    public static function getNbVehiculesParCategorieSQL(){
+        return self::query('
+            select c.*,count(*) as nb 
+            from modele m,vehicule v, categorie c 
+            where v.modele_id=m.id
+            and c.id=m.categorie_id
+            group by m.categorie_id ',[]);
+    }
 }

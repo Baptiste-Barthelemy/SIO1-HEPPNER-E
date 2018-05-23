@@ -31,12 +31,12 @@
 
         <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
-                <a class="nav-link" href="">
+                <a class="nav-link" href="?c=DashBoard&a=liste">
                     <span class="nav-link-text">Tableau de bord</span>
                 </a>
             </li>
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
-                <a class="nav-link" href="">
+                <a class="nav-link" href="?c=Parametre&a=liste">
                     <span class="nav-link-text">Paramètre</span>
                 </a>
             </li>
