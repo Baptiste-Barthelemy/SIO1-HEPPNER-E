@@ -8,7 +8,7 @@
 
 namespace App\C;
 
-use App\V\DashBoard\ListeView;
+use App\V\Parametre\ListeView;
 
 class ParametreController extends \Core\Controller {
 

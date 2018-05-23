@@ -11,7 +11,7 @@
         <div class="card text-white bg-primary o-hidden h-100">
             <div class="card-body">
                 <div class="card-body-icon">
-                    <i class="fa fa-fw fa-globe"></i>
+                    <i class="fa fa-fw fa-user"></i>
                 </div>
                 <div class="mr-5"><?php echo \App\M\ClientModel::count(); ?> clients</div>
             </div>
@@ -22,7 +22,7 @@
         <div class="card text-white bg-primary o-hidden h-100">
             <div class="card-body">
                 <div class="card-body-icon">
-                    <i class="fa fa-fw fa-globe"></i>
+                    <i class="fa fa-fw fa-file"></i>
                 </div>
                 <div class="mr-5"><?php echo \App\M\DemandeTransportModel::count() - \App\M\DevisModel::count(); ?> devis à réaliser</div>
             </div>
@@ -44,7 +44,7 @@
         <div class="card text-white bg-primary o-hidden h-100">
             <div class="card-body">
                 <div class="card-body-icon">
-                    <i class="fa fa-fw fa-globe"></i>
+                    <i class="fa fa-fw fa-euro"></i>
                 </div>
                 <div class="mr-5"><?php ?>€ de chiffre d'affaires</div>
             </div>
@@ -55,7 +55,7 @@
         <div class="card text-white bg-primary o-hidden h-100">
             <div class="card-body">
                 <div class="card-body-icon">
-                    <i class="fa fa-fw fa-globe"></i>
+                    <i class="fa fa-fw fa-car"></i>
                 </div>
                 <div class="mr-5"><?php echo \App\M\VehiculeModel::count(); ?> véhicules</div>
             </div>
@@ -66,7 +66,7 @@
         <div class="card text-white bg-primary o-hidden h-100">
             <div class="card-body">
                 <div class="card-body-icon">
-                    <i class="fa fa-fw fa-globe"></i>
+                    <i class="fa fa-fw fa-user"></i>
                 </div>
                 <div class="mr-5"><?php echo \App\M\ConducteurModel::count(); ?> conducteurs</div>
             </div>
@@ -77,7 +77,7 @@
         <div class="card text-white bg-primary o-hidden h-100">
             <div class="card-body">
                 <div class="card-body-icon">
-                    <i class="fa fa-fw fa-globe"></i>
+                    <i class="fa fa-fw fa-road"></i>
                 </div>
                 <div class="mr-5"><?php ?> Le plus long trajet</div>
             </div>
