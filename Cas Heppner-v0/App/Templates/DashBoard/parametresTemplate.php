@@ -85,13 +85,3 @@
         </div>
     </div>
 </div>';
-<div class="form-group">
-    <label for="type">Type du bien :</label><br />
-    <SELECT name="type" size="1">
-        <OPTION>Maison avec terrain
-        <OPTION>Maison sans terrain
-        <OPTION>Appartement
-        <OPTION>Terrain seul
-        <OPTION>Local entreprise
-        <OPTION>Parking
-    </SELECT>
