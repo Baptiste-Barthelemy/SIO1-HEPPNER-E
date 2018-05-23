@@ -61,7 +61,7 @@
                 <div class="card-body-icon">
                     <i class="fa fa-fw fa-globe"></i>
                 </div>
-                <div class="mr-5"><?php echo \App\M\ClientModel::count(); ?> véhicules
+                <div class="mr-5"><?php echo \App\M\VehiculeModel::count(); ?> véhicules
                 </div>
             </div>
         </div>
@@ -73,7 +73,7 @@
                 <div class="card-body-icon">
                     <i class="fa fa-fw fa-globe"></i>
                 </div>
-                <div class="mr-5"><?php echo \App\M\ClientModel::count(); ?> conducteurs
+                <div class="mr-5"><?php echo \App\M\ConducteurModel::count(); ?> conducteurs
                 </div>
             </div>
         </div>
