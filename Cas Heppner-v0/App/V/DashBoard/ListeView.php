@@ -42,9 +42,18 @@ class  ListeView extends \Core\View {
         return 0;
     }
 
-    public function getTotalDistance()
+    public function getTotalDistanceJour()
     {
-        return DemandeTransportModel::getTotalDistance();
+        return DemandeTransportModel::getTotalDistanceJour();
     }
 
+    public function getTotalDistanceMois()
+    {
+        return DemandeTransportModel::getTotalDistanceMois();
+    }
+
+    public function getDistanceMax()
+    {
+        return DemandeTransportModel::getDistanceMax();
+    }
 }
