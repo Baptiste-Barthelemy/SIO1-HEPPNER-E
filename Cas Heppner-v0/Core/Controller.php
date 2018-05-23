@@ -3,7 +3,7 @@
 namespace Core;
 
 class Controller {
-
+//controller
     static protected $_view;
 
     static public function setView(View $view) {

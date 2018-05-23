@@ -26,4 +26,6 @@ class VehiculeModel extends Object
     public function getTrajets(){
         return TrajetModel::find(['vehicule_id'=>$this->id]);
     }
+
+
 }
