@@ -35,7 +35,7 @@
                 <div class="card-body-icon">
                     <i class="fa fa-fw fa-globe"></i>
                 </div>
-                <div class="mr-5"><?php echo \App\M\ClientModel::count(); ?> conducteurs en déplacements</div>
+                <div class="mr-5"><?php ?> conducteurs en déplacements</div>
             </div>
         </div>
     </div>
@@ -46,7 +46,7 @@
                 <div class="card-body-icon">
                     <i class="fa fa-fw fa-globe"></i>
                 </div>
-                <div class="mr-5"><?php echo \App\M\ClientModel::count(); ?>€ de chiffre d'affaires</div>
+                <div class="mr-5"><?php ?>€ de chiffre d'affaires</div>
             </div>
         </div>
     </div>
@@ -79,7 +79,7 @@
                 <div class="card-body-icon">
                     <i class="fa fa-fw fa-globe"></i>
                 </div>
-                <div class="mr-5"><?php echo \App\M\ClientModel::count(); ?> Le plus long trajet</div>
+                <div class="mr-5"><?php ?> Le plus long trajet</div>
             </div>
         </div>
     </div>
