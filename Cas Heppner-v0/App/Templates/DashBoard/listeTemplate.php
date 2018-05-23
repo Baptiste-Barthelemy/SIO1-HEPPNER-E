@@ -49,7 +49,7 @@
                 <div class="card-body-icon">
                     <i class="fa fa-fw fa-globe"></i>
                 </div>
-                <div class="mr-5"><?php echo \App\M\ClientModel::count(); ?>€ de chiffre d'affaire
+                <div class="mr-5"><?php echo \App\M\ClientModel::count(); ?>€ de chiffre d'affaires
                 </div>
             </div>
         </div>
