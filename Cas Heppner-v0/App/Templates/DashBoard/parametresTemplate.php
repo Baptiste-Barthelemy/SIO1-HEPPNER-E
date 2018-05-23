@@ -22,9 +22,25 @@
                 <input type="checkbox" name="3">
             </div>
             <div class="form-group">
-                <label for="devis">Chiffre d'affaire du jours et du mois :</label></br>
+                <label for="devis">Chiffre d'affaire du jours :</label></br>
                 <input type="checkbox" name="4">
             </div>
+            <div class="form-group">
+                <label for="type">Chiffre d'affaire du mois :</label><br />
+                <SELECT name="type" size="1">
+                    <OPTION>Janvier-01
+                    <OPTION>Fevrier-02
+                    <OPTION>Mars-03
+                    <OPTION>Avril-04
+                    <OPTION>Mai-05
+                    <OPTION>Juin-06
+                    <OPTION>Juillet-07
+                    <OPTION>Aout-08
+                    <OPTION>Septembre-09
+                    <OPTION>Octobre-10
+                    <OPTION>Novembre-11
+                    <OPTION>Decembre-12
+                </SELECT>
             <div class="form-group">
                 <label for="devis">Nombres de kilomètres parcourus:</label></br>
                 <input type="checkbox" name="5">
@@ -69,3 +85,13 @@
         </div>
     </div>
 </div>';
+<div class="form-group">
+    <label for="type">Type du bien :</label><br />
+    <SELECT name="type" size="1">
+        <OPTION>Maison avec terrain
+        <OPTION>Maison sans terrain
+        <OPTION>Appartement
+        <OPTION>Terrain seul
+        <OPTION>Local entreprise
+        <OPTION>Parking
+    </SELECT>
