@@ -23,4 +23,6 @@ class  PoidsMarchandiseView extends \Core\View
         return 'Poids par type de marchandise';
     }
 
+
+
 }

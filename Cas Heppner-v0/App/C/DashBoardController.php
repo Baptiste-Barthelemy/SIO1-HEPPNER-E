@@ -10,6 +10,7 @@ namespace App\C;
 
 use App\V\DashBoard\ListeView;
 use App\V\DashBoard\ParamsView;
+use App\V\DashBoard\PoidsMarchandiseView;
 
 
 /**
