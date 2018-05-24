@@ -1,87 +1,121 @@
 <ol class="breadcrumb">
     <li class="breadcrumb-item">
-        <a href="#">Paramètres</a>
+        <a href="#">Tableau de bord</a>
     </li>
 </ol>
 
-<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-<div class="container">
-    <div class="card card-login mx-auto mt-5">
-        <div class="card-header text-center text-white bg-dark">Paramètres</div>
-        <div class="card-body text-center">
-                <div class="form-group">
-                    <label for="devis">Nombres de devis a réaliser :</label></br>
-                    <input type="checkbox" name="1">
+
+<div class="row">
+
+    <div class="col-xl-3 col-sm-6 mb-3">
+        <div class="card text-white bg-primary o-hidden h-100">
+            <div class="card-body">
+                <div class="card-body-icon">
+                    <i class="fa fa-fw fa-user"></i>
                 </div>
-            <div class="form-group">
-                <label for="devis">Nombres de conducteurs en déplacement :</label></br>
-                <input type="checkbox" name="2">
+                <div class="mr-5"><?php echo \App\M\ClientModel::count(); ?> clients</div>
             </div>
-            <div class="form-group">
-                <label for="devis">Listes des conducteurs en déplacements :</label></br>
-                <input type="checkbox" name="3">
-            </div>
-            <div class="form-group">
-                <label for="devis">Chiffre d'affaire du jours :</label></br>
-                <input type="checkbox" name="4">
-            </div>
-            <div class="form-group">
-                <label for="type">Chiffre d'affaire du mois :</label><br />
-                <SELECT name="type" size="1">
-                    <OPTION>Janvier-01
-                    <OPTION>Fevrier-02
-                    <OPTION>Mars-03
-                    <OPTION>Avril-04
-                    <OPTION>Mai-05
-                    <OPTION>Juin-06
-                    <OPTION>Juillet-07
-                    <OPTION>Aout-08
-                    <OPTION>Septembre-09
-                    <OPTION>Octobre-10
-                    <OPTION>Novembre-11
-                    <OPTION>Decembre-12
-                </SELECT>
-            <div class="form-group">
-                <label for="devis">Nombres de kilomètres parcourus:</label></br>
-                <input type="checkbox" name="5">
-            </div>
-            <div class="form-group">
-                <label for="devis">Chiffre d'affaire par client :</label></br>
-                <input type="checkbox" name="6">
-            </div>
-            <div class="form-group">
-                <label for="devis">Poids transporté par type de marchandise :</label></br>
-                <input type="checkbox" name="7">
-            </div>
-            <div class="form-group">
-                <label for="devis">Nombre total de total de véhicules :</label></br>
-                <input type="checkbox" name="8">
-            </div>
-            <div class="form-group">
-                <label for="devis">Nombre total de conducteurs :</label></br>
-                <input type="checkbox" name="9">
-            </div>
-            <div class="form-group">
-                <label for="devis">Nombre de véhicules par catégorie :</label></br>
-                <input type="checkbox" name="10">
-            </div>
-            <div class="form-group">
-                <label for="devis">Kilométrage moyen de chaque véhicule :</label></br>
-                <input type="checkbox" name="11">
-            </div>
-            <div class="form-group">
-                <label for="devis">Le trajet le plus utilisé :</label></br>
-                <input type="checkbox" name="12">
-            </div>
-            <div class="form-group">
-                <label for="devis">Le plus long trajet réalisé :</label></br>
-                <input type="checkbox" name="13">
-            </div>
-                <div class="form-group">
-                    <label for="valider">Valider :</label></br>
-                    <input type="submit" name="valider">
-                </div>
-            </form>
         </div>
     </div>
-</div>';
+
+    <div class="col-xl-3 col-sm-6 mb-3">
+        <div class="card text-white bg-primary o-hidden h-100">
+            <div class="card-body">
+                <div class="card-body-icon">
+                    <i class="fa fa-fw fa-file"></i>
+                </div>
+                <div class="mr-5"><?php echo \App\M\DemandeTransportModel::count() - \App\M\DevisModel::count(); ?> devis à réaliser</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xl-3 col-sm-6 mb-3">
+        <div class="card text-white bg-primary o-hidden h-100">
+            <div class="card-body">
+                <div class="card-body-icon">
+                    <i class="fa fa-fw fa-globe"></i>
+                </div>
+                <div class="mr-5"><?php ?> conducteurs en déplacements</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xl-3 col-sm-6 mb-3">
+        <div class="card text-white bg-primary o-hidden h-100">
+            <div class="card-body">
+                <div class="card-body-icon">
+                    <i class="fa fa-fw fa-euro"></i>
+                </div>
+                <div class="mr-5"><?php ?>€ de chiffre d'affaires</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xl-3 col-sm-6 mb-3">
+        <div class="card text-white bg-primary o-hidden h-100">
+            <div class="card-body">
+                <div class="card-body-icon">
+                    <i class="fa fa-fw fa-car"></i>
+                </div>
+                <div class="mr-5"><?php echo \App\M\VehiculeModel::count(); ?> véhicules</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xl-3 col-sm-6 mb-3">
+        <div class="card text-white bg-primary o-hidden h-100">
+            <div class="card-body">
+                <div class="card-body-icon">
+                    <i class="fa fa-fw fa-user"></i>
+                </div>
+                <div class="mr-5"><?php echo \App\M\ConducteurModel::count(); ?> conducteurs</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xl-3 col-sm-6 mb-3">
+        <div class="card text-white bg-primary o-hidden h-100">
+            <div class="card-body">
+                <div class="card-body-icon">
+                    <i class="fa fa-fw fa-road"></i>
+                </div>
+                <div class="mr-5"><?php ?> Le plus long trajet</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xl-3 col-sm-6 mb-3">
+        <div class="card text-white bg-primary o-hidden h-100">
+            <div class="card-body">
+                <div class="card-body-icon">
+                    <i class="fa fa-fw fa-road"></i>
+                </div>
+                <div class="mr-5"><?php echo $this->getTotalDistanceJour(); ?> KMs parcourus aujourd'hui</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xl-3 col-sm-6 mb-3">
+        <div class="card text-white bg-primary o-hidden h-100">
+            <div class="card-body">
+                <div class="card-body-icon">
+                    <i class="fa fa-fw fa-road"></i>
+                </div>
+                <div class="mr-5"><?php echo $this->getTotalDistanceMois(); ?> KMs parcourus ce mois ci</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xl-3 col-sm-6 mb-3">
+        <div class="card text-white bg-primary o-hidden h-100">
+            <div class="card-body">
+                <div class="card-body-icon">
+                    <i class="fa fa-fw fa-road"></i>
+                </div>
+                <div class="mr-5"><?php echo $this->getDistanceMax(); ?> Distance MAXIMALE</div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
