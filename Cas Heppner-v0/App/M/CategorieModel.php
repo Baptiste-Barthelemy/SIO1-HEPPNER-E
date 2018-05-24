@@ -20,7 +20,7 @@ class CategorieModel extends Object
 
     public function nbVehicules(){
         //select * from modeles where categorie_id=?
-        $modeles = ModeleModel::find(['categorie_id'=>$this-id]);
+        $modeles = ModeleModel::find(['categorie_id'=>$this->id]);
         $nb = 0;
         foreach ($modeles as $modele) {
             $nb+=$modele->getNbVehicules();

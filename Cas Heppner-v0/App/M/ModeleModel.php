@@ -37,5 +37,69 @@ class ModeleModel extends Object
         return $this->libelle;
     }
 
-    
+    /**
+     * @return mixed
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getPoidsVide()
+    {
+        return $this->poidsVide;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getVolumeUtile()
+    {
+        return $this->volumeUtile;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getVitesseMoyenne()
+    {
+        return $this->vitesseMoyenne;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getVitesseMaximum()
+    {
+        return $this->vitesseMaximum;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getMarqueId()
+    {
+        return $this->marque_id;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getVolume()
+    {
+        return $this->volume;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getCategorieId()
+    {
+        return $this->categorie_id;
+    }
+
+
 }

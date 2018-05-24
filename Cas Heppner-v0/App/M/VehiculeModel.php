@@ -35,10 +35,58 @@ class VehiculeModel extends Object
         foreach ($categories as $categorie) {
             $valeur = [];
             $valeur['categorie']=$categorie;
-            $valeur['nbVehicules'] = $categorie->nbVehicules();
+            $valeur['nbVehicule'] = $categorie->nbVehicules();
             $return[]=$valeur;
         }
         return $return;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getImmatriculation()
+    {
+        return $this->immatriculation;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getDateMiseEnCirculation()
+    {
+        return $this->dateMiseEnCirculation;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getKilometrageAchat()
+    {
+        return $this->kilometrageAchat;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getCoutAchat()
+    {
+        return $this->coutAchat;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getModeleId()
+    {
+        return $this->modele_id;
     }
 
 

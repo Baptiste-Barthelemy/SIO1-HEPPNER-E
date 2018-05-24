@@ -5,6 +5,7 @@ namespace App\V\DashBoard;
 use App\M\DemandeTransportModel;
 use App\M\DepartementModel;
 use App\M\RegionModel;
+use App\M\VehiculeModel;
 
 class  ListeView extends \Core\View {
     /**
@@ -25,14 +26,10 @@ class  ListeView extends \Core\View {
         return 'Tableau de bord';
     }
 
-
-
-
-
-
-
-
-
+    public function getNbVehicule (){
+        $tableau =VehiculeModel::getNbVehiculesParCategorie();
+        return $tableau;
+    }
 
 
 
