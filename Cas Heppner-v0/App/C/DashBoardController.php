@@ -30,6 +30,12 @@ class DashBoardController extends \Core\Controller {
         $viewParams = new ParamsView();
         return $viewParams;
     }
+
+    public function poidTypeMarchandiseAction() {
+
+        $viewpoidTypeMarchandise = new poidTypeMarchandiseView();
+        return $viewpoidTypeMarchandise;
+    }
 }
 
 
