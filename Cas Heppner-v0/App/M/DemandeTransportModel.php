@@ -43,7 +43,8 @@ class DemandeTransportModel extends Object
         //$month=$date['mon'];
         //$year=$date['year'];
         //$aujourdhui=$year+'-'+$month+'-'+$day;
-        $liste=DemandeTransportModel::find(['dateDemande'=>'2018-05-23'], null, '0,100');
+        $dateJour=new \DateTime("NOW");
+        $liste=DemandeTransportModel::find(['dateDemande'=>$dateJour], null, '0,100');
         $somme=0;
         foreach ($liste as $ligne)
         {
