@@ -1,6 +1,6 @@
 <ol class="breadcrumb">
     <li class="breadcrumb-item">
-        <a href="#">Paramètres</a>
+        <a href="#">Tableau de bord</a>
     </li>
 </ol>
 
@@ -8,26 +8,26 @@
 <div class="container">
     <div class="card card-login mx-auto mt-5">
         <div class="card-header text-center text-white bg-dark">Paramètres</div>
-        <div class="card-body text-center">
+        <div class="card-body ">
                 <div class="form-group">
-                    <label for="devis">Nombres de devis a réaliser :</label></br>
-                    <input type="checkbox" name="1">
+                    <label for="devis">Nombres de devis a réaliser :</label>
+                    <input type="checkbox" name="1"></br>
                 </div>
             <div class="form-group">
-                <label for="devis">Nombres de conducteurs en déplacement :</label></br>
-                <input type="checkbox" name="2">
+                <label for="devis">Nombres de conducteurs en déplacement :</label>
+                <input type="checkbox" name="2"></br>
             </div>
             <div class="form-group">
-                <label for="devis">Listes des conducteurs en déplacements :</label></br>
-                <input type="checkbox" name="3">
+                <label for="devis">Listes des conducteurs en déplacements :</label>
+                <input type="checkbox" name="3"></br>
             </div>
             <div class="form-group">
-                <label for="devis">Chiffre d'affaire du jours :</label></br>
-                <input type="checkbox" name="4">
+                <label for="devis">Chiffre d'affaire du jours :</label>
+                <input type="checkbox" name="4"></br>
             </div>
             <div class="form-group">
-                <label for="type">Chiffre d'affaire du mois :</label><br />
-                <SELECT name="type" size="1">
+                <label for="type">Chiffre d'affaire du mois :</label>
+                <SELECT name="type" size="1"></br>
                     <OPTION>Janvier-01
                     <OPTION>Fevrier-02
                     <OPTION>Mars-03
@@ -42,43 +42,43 @@
                     <OPTION>Decembre-12
                 </SELECT>
             <div class="form-group">
-                <label for="devis">Nombres de kilomètres parcourus:</label></br>
-                <input type="checkbox" name="5">
+                <label for="devis">Nombres de kilomètres parcourus:</label>
+                <input type="checkbox" name="5"></br>
             </div>
             <div class="form-group">
-                <label for="devis">Chiffre d'affaire par client :</label></br>
-                <input type="checkbox" name="6">
+                <label for="devis">Chiffre d'affaire par client :</label>
+                <input type="checkbox" name="6"></br>
             </div>
             <div class="form-group">
-                <label for="devis">Poids transporté par type de marchandise :</label></br>
-                <input type="checkbox" name="7">
+                <label for="devis">Poids transporté par type de marchandise :</label>
+                <input type="checkbox" name="7"></br>
             </div>
             <div class="form-group">
-                <label for="devis">Nombre total de total de véhicules :</label></br>
-                <input type="checkbox" name="8">
+                <label for="devis">Nombre total de total de véhicules :</label>
+                <input type="checkbox" name="8"></br>
             </div>
             <div class="form-group">
-                <label for="devis">Nombre total de conducteurs :</label></br>
-                <input type="checkbox" name="9">
+                <label for="devis">Nombre total de conducteurs :</label>
+                <input type="checkbox" name="9"></br>
             </div>
             <div class="form-group">
-                <label for="devis">Nombre de véhicules par catégorie :</label></br>
-                <input type="checkbox" name="10">
+                <label for="devis">Nombre de véhicules par catégorie :</label>
+                <input type="checkbox" name="10"></br>
             </div>
             <div class="form-group">
-                <label for="devis">Kilométrage moyen de chaque véhicule :</label></br>
-                <input type="checkbox" name="11">
+                <label for="devis">Kilométrage moyen de chaque véhicule :</label>
+                <input type="checkbox" name="11"></br>
             </div>
             <div class="form-group">
-                <label for="devis">Le trajet le plus utilisé :</label></br>
-                <input type="checkbox" name="12">
+                <label for="devis">Le trajet le plus utilisé :</label>
+                <input type="checkbox" name="12"></br>
             </div>
             <div class="form-group">
-                <label for="devis">Le plus long trajet réalisé :</label></br>
-                <input type="checkbox" name="13">
+                <label for="devis">Le plus long trajet réalisé :</label>
+                <input type="checkbox" name="13"></br>
             </div>
                 <div class="form-group">
-                    <label for="valider">Valider :</label></br>
+                    <label for="valider">Valider :</label>
                     <input type="submit" name="valider">
                 </div>
             </form>

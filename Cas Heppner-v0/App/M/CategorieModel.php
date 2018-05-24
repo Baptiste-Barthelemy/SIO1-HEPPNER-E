@@ -28,4 +28,28 @@ class CategorieModel extends Object
         return $nb;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getLibelle()
+    {
+        return $this->libelle;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getPermisDid()
+    {
+        return $this->permis_did;
+    }
+
 }

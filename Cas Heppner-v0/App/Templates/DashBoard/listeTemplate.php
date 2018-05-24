@@ -1,10 +1,7 @@
-<ol class="breadcrumb">
-    <li class="breadcrumb-item">
-        <a href="#">Tableau de bord</a>
-    </li>
-</ol>
-
-
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+<div class="container">
+        <div class="card-header text-center text-white bg-dark">Tableau de bord</div>
+        <div class="card-body ">
 <div class="row">
 
     <div class="col-xl-3 col-sm-6 mb-3">
@@ -117,16 +114,30 @@
         </div>
     </div>
 
-    <div class="col-xl-3 col-sm-6 mb-3">
-        <div class="card text-white bg-dark o-hidden h-100">
-            <div class="card-body">
-                <div class="card-body-icon">
-                    <i class="fa fa-fw fa-truck"></i>
-                </div>
-                <div class="mr-5"><?php echo \app\M\CategorieModel::getNbVehicules(); ?> Nombre de véhicules par catégories</div>
+<div class ="row">
+    <div class="col-xl-12 col-sm-6 mb-3">
+        <div class="card-body">
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class ="table table-bordered" id ="dataTable" width="100%" cellspacing="0">
+
+                    </div>
+
+                    <table class="mr-5">Nombre de véhicules par catégories :
+                        <?php
+                        foreach ($this->getNbVehicule() as $unElement) {
+                            echo '<tr>';
+                            echo '<td>' .$unElement['categorie'] ->getLibelle(). '</td>';
+                            echo '<td>' .$unElement['nbVehicule'].'</td>';
+                            echo '</tr>';
+                        }
+                        ?>
+                    </table>
+                </div>>
             </div>
         </div>
     </div>
+</div>
 
 
 
