@@ -122,8 +122,7 @@
                         <table class ="table table-bordered" id ="dataTable" width="100%" cellspacing="0">
 
                     </div>
-
-                    <table class="mr-5">Nombre de véhicules par catégories :
+                    <div class="mr-5">Nombre de véhicules par catégories :
                         <?php
                         foreach ($this->getNbVehicule() as $unElement) {
                             echo '<tr>';
@@ -132,7 +131,7 @@
                             echo '</tr>';
                         }
                         ?>
-                    </table>
+                    </div>
                 </div>>
             </div>
         </div>
