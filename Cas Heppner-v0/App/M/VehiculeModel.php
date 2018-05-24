@@ -43,11 +43,6 @@ class VehiculeModel extends Object
 
 
     public static function getNbVehiculesParCategorieSQL(){
-        return self::query('
-            select c.*,count(*) as nb 
-            from modele m,vehicule v, categorie c 
-            where v.modele_id=m.id
-            and c.id=m.categorie_id
-            group by m.categorie_id ',[]);
+        return self::query('select c.*,count(*) as nb from modele m ,vehicule v , categorie c where v.modele_id=m.id and c.id=m.categorie_id group by m.categorie_id ',[]);
     }
 }
