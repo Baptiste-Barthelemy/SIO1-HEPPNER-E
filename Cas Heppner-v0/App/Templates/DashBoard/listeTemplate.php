@@ -109,7 +109,7 @@
                 <div class="card-body-icon">
                     <i class="fa fa-fw fa-road"></i>
                 </div>
-                <div class="mr-5"><?php echo $this->getDistanceMax(); ?> Distance MAXIMALE</div>
+                <div class="mr-5"><?php echo $this->getDistanceMax(); ?> KMs Distance maximale</div>
             </div>
         </div>
     </div>
@@ -120,8 +120,8 @@
                 <div class="card-body">
                     <div class="table-responsive">
                         <table class ="table table-bordered" id ="dataTable" width="100%" cellspacing="0">
+                            <thead><tr><th>Categorie</th><th>Nombre</th></tr></thead>
 
-                    </div>
                     <div class="mr-5">Nombre de véhicules par catégories :
 
                         <?php
@@ -132,6 +132,7 @@
                             echo '</tr>';
                         }
                         ?>
+                    </table>
                     </div>
                 </div>>
             </div>

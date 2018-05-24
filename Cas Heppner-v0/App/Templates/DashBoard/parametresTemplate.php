@@ -41,7 +41,8 @@
                     <OPTION>Novembre-11
                     <OPTION>Decembre-12
                 </SELECT>
-            <div class="form-group">
+
+                <div class="form-group">
                 <label for="devis">Nombres de kilomètres parcourus:</label>
                 <input type="checkbox" name="5"></br>
             </div>
