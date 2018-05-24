@@ -29,4 +29,13 @@ class ModeleModel extends Object
         return VehiculeModel::count(['modele_id'=>$this->id]);
     }
 
+    /**
+     * @return mixed
+     */
+    public function getLibelle()
+    {
+        return $this->libelle;
+    }
+
+    
 }
