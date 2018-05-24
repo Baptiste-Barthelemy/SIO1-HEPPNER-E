@@ -24,6 +24,20 @@ class  ListeView extends \Core\View {
     {
         return 'Tableau de bord';
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /**
      * @return mixed
      */

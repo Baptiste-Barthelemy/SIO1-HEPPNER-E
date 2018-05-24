@@ -40,6 +40,11 @@
                     <span class="nav-link-text">Paramètres</span>
                 </a>
             </li>
+            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+                <a class="nav-link" href="?c=DashBoard&a=poidsMarchandise">
+                    <span class="nav-link-text">Poids par type de marchandise</span>
+                </a>
+            </li>
         </ul>
 
         <ul class="navbar-nav sidenav-toggler">
