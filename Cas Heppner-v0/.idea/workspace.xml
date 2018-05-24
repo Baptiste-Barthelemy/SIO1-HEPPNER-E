@@ -21,6 +21,7 @@
       <list>
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/App/Templates/_helper/header-sb-admin.php" />
+        <option value="$PROJECT_DIR$/App/Templates/Parametre/ListeTemplate.php" />
       </list>
     </option>
   </component>
@@ -50,6 +51,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -72,25 +74,25 @@
               <item name="Cas Heppner-v0" type="b2602c69:ProjectViewProjectNode" />
               <item name="Cas Heppner-v0" type="462c0819:PsiDirectoryNode" />
               <item name="App" type="462c0819:PsiDirectoryNode" />
-              <item name="Templates" type="462c0819:PsiDirectoryNode" />
-              <item name="_helper" type="462c0819:PsiDirectoryNode" />
+              <item name="V" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Cas Heppner-v0" type="b2602c69:ProjectViewProjectNode" />
               <item name="Cas Heppner-v0" type="462c0819:PsiDirectoryNode" />
-              <item name="Core" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="V" type="462c0819:PsiDirectoryNode" />
+              <item name="DashBoard" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -117,29 +119,32 @@
       <workItem from="1526968464273" duration="246000" />
       <workItem from="1526981485418" duration="590000" />
       <workItem from="1526993810436" duration="172000" />
-      <workItem from="1527142651952" duration="67000" />
+      <workItem from="1527079656325" duration="635000" />
+      <workItem from="1527080341558" duration="276000" />
+      <workItem from="1527080653856" duration="477000" />
+      <workItem from="1527142672173" duration="10000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1075000" />
+    <option name="totallyTimeSpent" value="2406000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="25" width="1922" height="1056" extended-state="6" />
+    <frame x="-1" y="25" width="1718" height="903" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24895833" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2488345" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32917705" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -155,9 +160,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/App/V/Parametre/ListeView.php" />
+    <entry file="file://$PROJECT_DIR$/App/Templates/Parametre/ListeTemplate.php" />
+    <entry file="file://$PROJECT_DIR$/App/V/Parametre/ListeView.php" />
+    <entry file="file://$PROJECT_DIR$/App/Templates/Parametre/ListeTemplate.php" />
     <entry file="file://$PROJECT_DIR$/App/V/DashBoard/ListeView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="210">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
@@ -224,16 +233,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Templates/DashBoard/listeTemplate.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/V/DashBoard/ListeView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Templates/_helper/header-sb-admin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -241,6 +240,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/App/Templates/DashBoard/listeTemplate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/V/DashBoard/ListeView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/V/Parametre/ListeView.php" />
+    <entry file="file://$PROJECT_DIR$/App/Templates/Parametre/ListeTemplate.php" />
   </component>
   <component name="masterDetails">
     <states>

@@ -79,17 +79,6 @@
                 <div class="card-body-icon">
                     <i class="fa fa-fw fa-road"></i>
                 </div>
-                <div class="mr-5"><?php ?> Le plus long trajet</div>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-xl-3 col-sm-6 mb-3">
-        <div class="card text-white bg-primary o-hidden h-100">
-            <div class="card-body">
-                <div class="card-body-icon">
-                    <i class="fa fa-fw fa-road"></i>
-                </div>
                 <div class="mr-5"><?php echo $this->getTotalDistanceJour(); ?> KMs parcourus aujourd'hui</div>
             </div>
         </div>
@@ -116,6 +105,18 @@
             </div>
         </div>
     </div>
+
+    <div class="col-xl-3 col-sm-6 mb-3">
+        <div class="card text-white bg-primary o-hidden h-100">
+            <div class="card-body">
+                <div class="card-body-icon">
+                    <i class="fa fa-fw fa-truck"></i>
+                </div>
+                <div class="mr-5"><?php echo $this->getNbVehicules(); ?> Nombre de véhicules par catégories</div>
+            </div>
+        </div>
+    </div>
+
 
 
 </div>
