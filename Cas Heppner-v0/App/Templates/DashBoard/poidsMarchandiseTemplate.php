@@ -10,20 +10,26 @@
     <div class="card-body">
         <div class="table-responsive">
             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                <thead><tr><th>Ville de départ</th><th>Ville d'arrivée</th><th>Marchandise</th><th>Poids</th></tr></thead>
+                <thead><tr><th>Marchandise</th><th>Poids</th></tr></thead>
                 <tbody>
-                <!--tr><td>SULLY-SUR-LOIRE</td><td>BOUC-BEL-AIR</td><td>palette</td><td>16700</td></tr-->
+                <tr><td>liquide : matières dangereuses</td><td>60294441</td></tr>
+                <tr><td>palette</td><td>60865578</td></tr>
+
                 <?php
+                /**
+
+                SELECT SUM(poids) FROM demandeTransport, marchandiseType WHERE demandeTransport.typeMarchandise_id=marchandiseType.id AND typeMarchandise_id=1
+
                 //$demandeTransport = \App\M\DemandeTransportModel::getAll();
                 for ($i=0; $i < 50; $i++){
                     echo '<tr>';
-                    echo '<td>'.$demandeTransport[$i]['villeDepart']. '<td>';
-                    echo '<td>'.$demandeTransport[$i]['villeArrivee']. '<td>';
                     echo '<td>'.$demandeTransport[$i]['typeMarchandise_id']->getLibelle(). '<td>';
                     echo '<td>'.$demandeTransport[$i]['poids'].'<td>';
                     echo '</tr>';
                 }
+                 **/
                 ?>
+
                 </tbody>
             </table>
         </div>
