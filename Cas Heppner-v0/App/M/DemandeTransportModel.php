@@ -25,6 +25,7 @@ class DemandeTransportModel extends Object
     public $dateDemande;
     public $dateLimite;
 
+
     /**
      * @return mixed
      */
@@ -65,11 +66,13 @@ class DemandeTransportModel extends Object
         return $somme;
     }
 
+
     public static function getDistanceMax()
     {
         $distanceMax=DemandeTransportModel::max('distance');
         return $distanceMax;
     }
+
 
 
 

@@ -15,4 +15,21 @@ class MarchandiseTypeModel extends Object
 
     public $id;
     public $libelle;
+
+    /**
+     * @return mixed
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getLibelle()
+    {
+        return $this->libelle;
+    }
+
 }

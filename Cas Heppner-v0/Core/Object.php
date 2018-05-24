@@ -172,6 +172,7 @@ class Object {
         return self::where(implode(' and ', $where), $p, $order, $limit);
     }
 
+
     /**
      * find first object
      * 
@@ -234,6 +235,8 @@ class Object {
     }
 
 
+
+
     public static function max($params) {
         $query = 'select max('.$params.') from ' . self::_getTable() . ' ';
 
@@ -242,6 +245,8 @@ class Object {
         $result = $statement->fetchAll(\PDO::FETCH_COLUMN);
         return $result[0];
     }
+
+
 
     public static function min($params) {
         $query = 'select MIN('.$params.') from ' . self::_getTable() . ' ';
