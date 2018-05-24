@@ -112,7 +112,7 @@
                 <div class="card-body-icon">
                     <i class="fa fa-fw fa-truck"></i>
                 </div>
-                <div class="mr-5"><?php echo $this->getDistanceMax(); ?> Nombre de véhicules par catégories</div>
+                <div class="mr-5"><?php echo $this->getNbVehicules(); ?> Nombre de véhicules par catégories</div>
             </div>
         </div>
     </div>
