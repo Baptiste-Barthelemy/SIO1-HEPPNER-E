@@ -32,7 +32,7 @@
                 <div class="card-body-icon">
                     <i class="fa fa-fw fa-user"></i>
                 </div>
-                <div class="mr-5"><?php//echo \App\M\TrajetModel::getEnDeplacement(); ?> conducteurs en déplacements</div>
+                <div class="mr-5"><?php echo \App\M\TrajetModel::getEnDeplacement(); ?> conducteurs en déplacements</div>
             </div>
         </div>
     </div>
@@ -43,7 +43,7 @@
                 <div class="card-body-icon">
                     <i class="fa fa-fw fa-user"></i>
                 </div>
-                <div class="mr-5"><?//php echo \App\M\ConducteurModel::count() - \App\M\TrajetModel::getEnDeplacement(); ?> conducteurs non affectés</div>
+                <div class="mr-5"><?php echo \App\M\ConducteurModel::count() - \App\M\TrajetModel::getEnDeplacement(); ?> conducteurs non affectés</div>
             </div>
         </div>
     </div>
@@ -54,11 +54,22 @@
                 <div class="card-body-icon">
                     <i class="fa fa-fw fa-euro"></i>
                 </div>
-                <div class="mr-5"><?php ?>€ de chiffre d'affaires</div>
+                <div class="mr-5"><?php echo \App\M\DevisModel::getChiffreAffaireJour(); ?>€ de chiffre d'affaires quotidien</div>
             </div>
         </div>
     </div>
-
+        
+    <div class="col-xl-3 col-sm-6 mb-3">
+        <div class="card text-white bg-dark o-hidden h-100">
+            <div class="card-body">
+                <div class="card-body-icon">
+                    <i class="fa fa-fw fa-euro"></i>
+                </div>
+                <div class="mr-5"><?php echo \App\M\DevisModel::getChiffreAffaireMois(); ?>€ de chiffre d'affaires mensuel</div>
+            </div>
+        </div>
+    </div>
+        
     <div class="col-xl-3 col-sm-6 mb-3">
         <div class="card text-white bg-dark o-hidden h-100">
             <div class="card-body">
@@ -98,7 +109,7 @@
                 <div class="card-body-icon">
                     <i class="fa fa-fw fa-road"></i>
                 </div>
-                <div class="mr-5"><?php echo $this->getTotalDistanceMois(); ?> KMs parcourus ce mois ci</div>
+                <div class="mr-5"><?php echo $this->getTotalDistanceMois(); ?> KMs parcourus ce mois-ci</div>
             </div>
         </div>
     </div>
