@@ -14,9 +14,7 @@
                 <tbody>
                 <!--tr><td>SULLY-SUR-LOIRE</td><td>BOUC-BEL-AIR</td><td>palette</td><td>16700</td></tr-->
                 <?php
-
-
-                $demandeTransport = \App\M\DemandeTransportModel::getAll();
+                //$demandeTransport = \App\M\DemandeTransportModel::getAll();
                 for ($i=0; $i < 50; $i++){
                     echo '<tr>';
                     echo '<td>'.$demandeTransport[$i]['villeDepart']. '<td>';

@@ -11,6 +11,7 @@ namespace App\C;
 use App\V\DashBoard\ListeView;
 use App\V\DashBoard\ParamsView;
 use App\V\DashBoard\PoidsMarchandiseView;
+use App\V\DashBoard\nbVehiculeView;
 
 
 /**
@@ -37,6 +38,13 @@ class DashBoardController extends \Core\Controller {
 
         $viewPoidsMarchandise = new PoidsMarchandiseView();
         return $viewPoidsMarchandise;
+    }
+
+
+    public function nbVehiculeAction() {
+
+        $viewnbVehicule = new nbVehiculeView();
+        return $viewnbVehicule;
     }
 }
 

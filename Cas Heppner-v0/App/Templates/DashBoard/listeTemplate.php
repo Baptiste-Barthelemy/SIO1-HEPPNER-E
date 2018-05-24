@@ -114,31 +114,32 @@
         </div>
     </div>
 
-<div class ="row">
-    <div class="col-xl-12 col-sm-6 mb-3">
-        <div class="card-header">
+
+    <div class ="row">
+        <div class="col-xl-12 col-sm-6 mb-3">
+            <div class="card-header">
                 <div class="card-body">
                     <div class="table-responsive">
                         <table class ="table table-bordered" id ="dataTable" width="100%" cellspacing="0">
                             <thead><tr><th>Categorie</th><th>Nombre</th></tr></thead>
 
-                    <div class="mr-5">Nombre de véhicules par catégories :
+                            <div class="mr-5">Nombre de véhicules par catégories :
 
-                        <?php
-                        foreach ($this->getNbVehicule() as $unElement){
-                            echo '<tr>';
-                            echo '<td>' .$unElement['categorie'] ->getLibelle(). '</td>';
-                            echo '<td>' .$unElement['nbVehicule'].'</td>';
-                            echo '</tr>';
-                        }
-                        ?>
-                    </table>
+                                <?php
+                                foreach ($this->getNbVehicule() as $unElement){
+                                    echo '<tr>';
+                                    echo '<td>' .$unElement['categorie'] ->getLibelle(). '</td>';
+                                    echo '<td>' .$unElement['nbVehicule'].'</td>';
+                                    echo '</tr>';
+                                }
+                                ?>
+                        </table>
                     </div>
                 </div>>
             </div>
         </div>
     </div>
-</div>
+
 
 
 
